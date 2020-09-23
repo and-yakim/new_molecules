@@ -1,10 +1,6 @@
 from tkinter import *
 from random import uniform
-
-
-class Quadrant:
-    def __init__(self):
-        pass
+import quadtree
 
 
 class Molecule:
