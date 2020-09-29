@@ -1,0 +1,8 @@
+R 1,stop 0,R 3,stop 2,R
+L 1,L 0,stop 3,L 2,stop
+D 2,stop 3,stop 0,D 1,D
+U 2,U 3,U 0,stop 1,stop
+RU 3,U 2,RU 1,stop 0,R
+RD 3,stop 2,R 1,D 0,RD
+LD 3,L 2,stop 1,LD 0,D
+LU 3,LU 2,U 1,L 0,stop
