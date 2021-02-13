@@ -36,6 +36,12 @@ class MoleculesSimulator:
 
         self.root.mainloop()
 
+    def interact(self, mol1, mol2):
+        pass
+
+    def step(self):
+        self.root.after(10, self.step)
+
 
 def main():
     MoleculesSimulator()
